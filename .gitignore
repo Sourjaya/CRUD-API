@@ -5,3 +5,4 @@ venv/
 CRUD_app.postman_collection.json
 DEV-api_project.postman_environment.json
 PROD-api_project.postman_environment.json
+tests/
