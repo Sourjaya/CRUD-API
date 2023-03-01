@@ -35,7 +35,7 @@ app.add_middleware(
 #     return {"data":posts}
 @app.get("/")
 def home():
-    return {"message":"Welcome to the home page"}
+    return {"message":"Welcome to the home page(CI/CD implemented).You can find the docker image at https://hub.docker.com/repository/docker/sourjaya2015das/api_project/general"}
 
 app.include_router(post.router)
 app.include_router(user.router)
